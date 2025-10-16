@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Archivo txt =new txt();
         Archivo pdf =new pdf();
+
         GestorArchivos gestorTxt=new GestorArchivos(txt);
         GestorArchivos gestorPdf=new GestorArchivos(pdf);
 
